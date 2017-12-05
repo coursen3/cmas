@@ -1,1 +1,1 @@
-# cmas
+python cmas.py
