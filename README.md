@@ -1,1 +1,1 @@
-python cmas.py
+python cmas.py <num givers per receiver>

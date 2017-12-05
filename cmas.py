@@ -1,7 +1,12 @@
 from collections import defaultdict
 from random import randint
+import argparse
 
-Ngift = 3
+parser = argparse.ArgumentParser(description="Generate gift pairings")
+parser.add_argument("N", type=int, help="Number of givers for each receiver")
+args = parser.parse_args()
+
+Ngift = args.N 
 couples = \
 (("John", "Perrine"), 
 ("Matt", "Mer"), 
